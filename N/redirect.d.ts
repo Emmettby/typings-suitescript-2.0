@@ -11,7 +11,7 @@ interface ToRecordOptions {
     /** The internal id of the target record. */
     id: string;
     /** Type of record. */
-    type: string;
+    type: any;
     /** Determines whether to return a URL for the record in edit mode or view mode. If set to true, returns the URL to an existing record in edit mode. */
     isEditMode?: boolean;
     /** Contains additional URL parameters as key/value pairs. */
